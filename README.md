@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ### 3. Запуск ноутбука
 
-Откройте `notebooks/HW_03_python_ds_2025.ipynb` в VS Code или Jupyter.
+Откройте `notebooks/HW_03_python_ds.ipynb` в VS Code или Jupyter.
 Перед запуском выберите kernel, указывающий на `.venv`
 (`Select Kernel` → `Python Environment` → `.venv`).
 
@@ -56,18 +56,6 @@ pip install -r requirements.txt
   └── requirements.txt                  # список зависимостей проекта
   ```
 
-Кратко, что где искать:
-
-- **`scraper.py`** — точка входа. Здесь функция `get_book_data` (получение данных
-  о книге по URL) и логика сохранения в `artifacts/`, а также планировщик запуска.
-- **`artifacts/books_data.txt`** — итоговый файл с собранными данными.
-  Перезаписывается при каждом запуске скрапера.
-- **`notebooks/`** — ноутбук с демонстрацией работы `get_book_data` и разбором
-  собранных данных.
-- **`tests/`** — автотесты. Запускаются через `python -m pytest` из корня проекта.
-- **`requirements.txt`** — зависимости; устанавливаются одной командой
-  `pip install -r requirements.txt`.
-
 ## Документация
 
 Используемые библиотеки и инструменты:
@@ -81,4 +69,4 @@ pip install -r requirements.txt
 
 Автор:
 
-- **Имя Фамилия** — <email@example.com> — GitHub: [@username](https://github.com/username)
+- **Александр Соколов** — <souljrn@gmail.com> — GitHub: [@SoulsideJourney](https://github.com/SoulsideJourney)
